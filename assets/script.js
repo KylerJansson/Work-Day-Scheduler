@@ -5,7 +5,7 @@ $(function () {
   // function to display current time/date
   function updateCurrentTime() {
     const date = dayjs().format('dddd, MMMM DD');
-    const currentTime = dayjs().format('hh:mm:ss');
+    const currentTime = dayjs().format('hh:mm:ss A');
     $('#currentDay').html(date + '<br>' + currentTime);
   }
   // converts hour id number into integer and change the class of each time block depending on past/present/future.
