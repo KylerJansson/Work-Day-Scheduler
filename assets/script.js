@@ -1,5 +1,6 @@
 $(function () {
-  const currentHour = dayjs().get('hour')
+  // const currentHour = dayjs().get('hour')
+  const currentHour = 10
 
   console.log('current hour:', currentHour);
   // function to display current time/date
